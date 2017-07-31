@@ -1,0 +1,1 @@
+CreateGrudge(US Individualism,USA,Socialist_freq,-0.2,1,0);

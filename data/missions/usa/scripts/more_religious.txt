@@ -1,0 +1,1 @@
+CreateGrudge(US History,USA,Religious_freq,0.1,1,0);
