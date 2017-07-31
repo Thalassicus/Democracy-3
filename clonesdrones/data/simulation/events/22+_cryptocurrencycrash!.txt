@@ -1,0 +1,13 @@
+[config]
+Name = CryptocurrencyCrash!
+GUIName = Cryptocurrency Crash!
+Texture = event_flashcrash.jpg
+Description = The rise of cryptocurrencies has lead ot a bubble that just burst. Millions of self-employed have lost money. Now they are callling for increased regulation of internet currencies.
+MinimunTurn = 32
+GUISound = d3_computers.ogg
+OnImplement = CreateGrudge(Cryptocurrency Crash!,CryptocurrencyCrash!,GDP,-0.12,0.82);CreateGrudge(Cryptocurrency Crash!,CryptocurrencyCrash!,SelfEmployed_income,-0.14,0.63);CreateGrudge(Cryptocurrency Crash!,CryptocurrencyCrash!,CryptocurrencyCrash,-0.720,0.67);CreateGrudge(Cryptocurrency Crash!,CryptocurrencyCrash!,InternetCurrencyAdoption,-0.06,0.65);
+
+[influences]
+0 = "_random_,0.1,0.4"
+1 = "Technology,0+(0.1*x)"
+2 = "InternetCurrencyAdoption,0.5*(x^2.2)"

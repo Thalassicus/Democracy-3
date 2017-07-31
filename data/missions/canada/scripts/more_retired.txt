@@ -1,0 +1,1 @@
+CreateGrudge(Canadian Demography,Canada,Retired_freq,0.02,1,0);

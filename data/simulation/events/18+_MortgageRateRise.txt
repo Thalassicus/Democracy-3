@@ -1,0 +1,12 @@
+[config]
+Name = MortgageRateRise
+GUIName = Mortgage Rate Rise
+Texture = "mortage interest rate rise.jpg"
+Description = "A lack of confidence by mortgage lenders has resulted in a rise in interest rates for home-buyers. This will cause a drop in income (and no-doubt confidence) amongst the home-owning middle classes, and in some cases, may cause repossessions and homelessness."
+GUISound = d3_boo.ogg
+MinimumTurn = 18
+OnImplement = CreateGrudge(Mortgage Rate Rise,MortgageRateRise,MortgageRateRise,-1.0,0.93);CreateGrudge(Mortgage Rate Rise,MortgageRateRise,MiddleIncome,-0.310,0.760);CreateGrudge(Mortgage Rate Rise,MortgageRateRise,MiddleIncome_income,-0.210,0.760);CreateGrudge(Mortgage Rate Rise,MortgageRateRise,Homelessness,0.110,0.760);
+[influences]
+0 = "_random_,0,0.2"
+1 = "GDP,0+(0.7*x)"
+2 = _winning_,0+(0.8*x)"

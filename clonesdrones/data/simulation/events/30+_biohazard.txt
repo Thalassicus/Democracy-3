@@ -1,0 +1,14 @@
+[config]
+Name = Biohazard
+GUIName = Biohazard Outbreak
+Texture = event_biohazard.jpg
+Description = There has been a catastrophic breakdown in biohazard security at one of our big laboratories resulting in serious diseases being released into the wild. Scientists are confident they can find a treatment in time, but that will not prevent widespread panic. This is also going to be a severe blow to our tourist industry.
+MinimunTurn = 30
+GUISound = d3_laboratory.ogg
+OnImplement = CreateGrudge(Biohazard Outbreak,Biohazard,Biohazard,-0.8,0.75);CreateGrudge(Biohazard Outbreak,Biohazard,Tourism,-0.45,0.8);CreateGrudge(Biohazard Outbreak,Biohazard,Health,-0.2,0.6);CreateGrudge(Biohazard Outbreak,Biohazard,_All_,-0.15,0.65);
+
+[influences]
+0 = "_random_,0.1,0.4"
+1 = "_winning_,0.0+(0.2*x)"
+2 = "Technology,0.5*(x^2)"
+3 = "_year,0+(0.004*x)"

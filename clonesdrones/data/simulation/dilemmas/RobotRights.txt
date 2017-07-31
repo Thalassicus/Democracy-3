@@ -1,0 +1,20 @@
+[dilemma]
+name=RobotRights
+guiname=Robot Rights
+description=Now that sentient robots are technically possible, it is time to decide into which world they are born. Is it unethical to abstain from providing created beings with human-like rights, critical thinkers ask. If they are truly self-aware and capable of human level thinking processes, nothing speaks against giving them the same rights as humans, liberals insist.
+
+[influences]
+0 = "_random_,0.2,0.5"
+1 = "Technology,0.2*(x^3)"
+2 = "RoboticsResearch,0.0+(0.1*x)"
+3 = "IndustrialAutomation,0.0+(0.2*x)"
+
+[option0]
+Name = Extend human rights to robots
+Description = When robots were introduced we wanted them to offer cheap labour and undertake dangerous tasks. Sentient beings can not be forced to carry out such duties. A new balance has to be found where humans and robots coexist in peace.
+OnImplement = CreateGrudge(Robot Rights,RobotRights,Liberal,0.13,0.75);CreateGrudge(Robot Rights,RobotRights,Capitalist,-0.1,0.8);
+
+[option1]
+Name = Refuse human rights for robots
+Description = As creators we reserve the right to treat our creations as we please. Robots were created to provide cheap labour and are especially suited for dangerous tasks. If we protect their rights we undermine the very intentions we had for creating them, and will make life harder for business owners.
+OnImplement = CreateGrudge(Robot Rights,RobotRights,Liberal,-0.09,0.75);CreateGrudge(Robot Rights,RobotRights,Capitalist,0.08,0.8);

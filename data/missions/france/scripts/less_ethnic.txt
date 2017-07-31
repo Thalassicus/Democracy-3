@@ -1,0 +1,1 @@
+CreateGrudge(France Geography,France,EthnicMinorities_freq,-0.27,1,0);

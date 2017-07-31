@@ -1,0 +1,1 @@
+CreateGrudge(French Geography,France,Farmers_freq,-0.06,1,0);

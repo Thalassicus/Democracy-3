@@ -1,0 +1,18 @@
+[dilemma]
+name=TradeAgreement
+guiname=Trade Agreement
+description=A group of western countries has established an initiative to set up a new trade agreement regulating tariffs, quotas and other trade restrictions. This contract should help to prevent emerging countries from catching up and secure worldwide economic dominance at the expense of global equality.
+
+[influences]
+0 = "_random_,0.4,0.75"
+1 = "ForeignRelations,0.25*(x^3.4)"
+
+[option0]
+Name = Sign agreement
+Description = Our economy is under stress from new players on the global market. We have to tie closer bonds with old friends in order to emerge victorious in this new hostile economic environment.
+OnImplement = CreateGrudge(Trade Agreement,TradeAgreement,Capitalist,0.17,0.75);CreateGrudge(Trade Agreement,TradeAgreement,ForeignRelations,-0.1,0.5);CreateGrudge(Trade Agreement,TradeAgreement,Liberal,-0.23,0.9);
+
+[option1]
+Name = Refuse to sign agreement
+Description = This agreement would support our economy at the expense of global fairness. It is not the time to just think about ourselves but to welcome the new players on the global theater with open arms.
+OnImplement = CreateGrudge(Trade Agreement,TradeAgreement,Liberal,0.13,0.75);CreateGrudge(Trade Agreement,TradeAgreement,ForeignRelations,0.15,0.9);CreateGrudge(Trade Agreement,TradeAgreement,Capitalist,-0.12,0.75);

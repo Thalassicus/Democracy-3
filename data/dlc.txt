@@ -1,0 +1,5 @@
+[dlc]
+0 = "SocialEngineering,Social Engineering,dlc_socialengineering.dds,http://www.positech.co.uk/democracy3/socialengineering.html?src=dlcicon,http://store.steampowered.com/app/274050/,274050"
+1 = "Extremism,Extremism,dlc_extremism.dds,http://www.positech.co.uk/democracy3/extremism.html?src=dlcicon,http://store.steampowered.com/app/291900/,291900"
+2 = "ClonesDrones,Clones and Drones,dlc_clones.dds,http://www.positech.co.uk/democracy3/clonesanddrones.html?src=dlcicon,http://store.steampowered.com/app/322000/,322000"
+3 = "Electioneering,Electioneering,dlc_electioneering.dds,http://www.positech.co.uk/democracy3/electioneering.html?src=dlcicon,http://store.steampowered.com//app/483450,483450"

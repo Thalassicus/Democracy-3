@@ -1,0 +1,1 @@
+CreateGrudge(UK,_hidden_,Religious_freq,0.05,1,0);

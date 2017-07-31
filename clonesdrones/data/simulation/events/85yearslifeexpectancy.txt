@@ -1,0 +1,12 @@
+[config]
+Name = 85YearsLifeExpectancy
+GUIName = 85 Years Life Expectancy
+Texture = event_85years.jpg
+Description = The life expectancy of a baby born today is 85 years. Despite the increasing costs of maintaining the health and pension sytems, everyone in the country is excited at the prospect of a longer life.
+GUISound = d3_crowd_cheer.ogg
+OnImplement = CreateGrudge(85 Years Life Expectancy,85YearsLifeExpectancy,_All_,+0.11,0.700);CreateGrudge(85 Years Life Expectancy,85YearsLifeExpectancy,85YearsLifeExpectancy,-1.0,1.0);CreateGrudge(85 Years Life Expectancy,85YearsLifeExpectancy,Retired,0.2,0.8);
+
+[influences]
+0 = "_random_,0.0,0.4"
+1 = "_Lifespan,0.0+(0.65*x)"
+

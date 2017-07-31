@@ -1,0 +1,1 @@
+CreateGrudge(UK Geography,UK,EthnicMinorities_freq,-0.25,1,0);

@@ -1,0 +1,11 @@
+[config]
+Name = LocalBlockbuster
+GUIName = Local Blockbuster!
+Texture = "local Blockbuster.jpg"
+Description = A massive hit movie that is made in our country has not only resulted in a boost to our economy, but its also doing wonders for our tourism industry and foreign relations by portraying our country in such a sympathetic light. Grab the popcorn!
+GUISound = d3_movie.ogg
+OnImplement = CreateGrudge(Local Blockbuster!,LocalBlockbuster,Tourism,0.120,0.670);CreateGrudge(Local Blockbuster!,LocalBlockbuster,GDP,0.040,0.640);CreateGrudge(Local Blockbuster!,LocalBlockbuster,ForeignRelations,0.080,0.740);CreateGrudge(Local Blockbuster!,LocalBlockbuster,LocalBlockbuster,-0.800,0.800);
+[influences]
+0 = "_random_,0.000,0.200"
+1 = "_winning_,0.85-(0.85*x)"
+            

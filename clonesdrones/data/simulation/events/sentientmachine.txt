@@ -1,0 +1,11 @@
+[config]
+Name = SentientMachine
+GUIName = Sentient Machine
+Texture = event_ai.jpg
+Description = A breakthrough algorithm in cognitive engineering and artifical intelligence leads to the first sentient machine. Aptly named "Adam", the artificial mind upsets the church and fascinates scientists.
+GUISound = d3_computers.ogg
+OnImplement = CreateGrudge(Sentient Machine,SentientMachine,Technology,0.13,0.7);CreateGrudge(Sentient Machine,SentientMachine,WorkerProductivity,0.2,0.9);CreateGrudge(Sentient Machine,SentientMachine,Unemployment,0.05,0.8);CreateGrudge(Sentient Machine,SentientMachine,SentientMachine,-0.85,0.85);CreateGrudge(Sentient Machine,SentientMachine,Religious_freq,-0.15,1.0);CreateGrudge(Sentient Machine,SentientMachine,Religious,-0.25,0.9);
+
+[influences]
+0 = "_random_,0.1,0.6"
+1 = "Technology,0.4*(x^2.4)"

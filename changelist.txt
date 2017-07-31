@@ -1,0 +1,380 @@
+Version 1.01
+============
+Initial Beta release
+
+Version 1.02
+============
+Bug fixes-
+	Organ Donation Costs were reversed, now fixed.
+	Some typos fixed.
+	Fixed crash when selecting a 'new policy' category that was empty.
+	Fixed crash when saying 'yes' to Airport Expansion Dilemma.
+	Fixed top strip GUI for low resolution layouts.
+Balance:
+	Reduced impact of technology on retired group size by 33% and doubled it's effect delay.
+	Reduced impact of health on retired group size by 33% and added some delay.
+	Reduced all factors that affect growth in parents group by 50%.
+	Effect of Air Travel on CO2 now curves upwards and is higher.
+	GDP, Bus use and Rail use now increases oil demand, cars demand is lower.
+	Hybrid cars effect of OilDemand is reduced.
+	Effects of childcare and technology grants on productivity reduced.
+	Effects of technology on productivity reduced by 25%.
+	Effect of community policing on liberals reduced.
+	Effects of prisons on liberals now skewed towards the top end (rehabilitation).
+	Effect of Disability benefit on euqality halved.
+	Consumer rights now reduces GDP and upsets the self-employed.
+	High military spending now upsets liberals.
+	All impacts on State Employees happiness reduced by 25%.
+	All impacts on Parents happiness reduced by 25%
+	All impacts on Religious group membership now take longer to take effect.
+	Police Drones no longer actually cause crime (mistake!) at lowest levels.
+	Effect of State Schooling on Education made non-linear.
+	Effect of Police Force on Crime made non-linear.
+	Effect of Police Force on Violent Crime made non-linear.
+	Effect of Private Schools on Education made non-linear.
+	Effect of State Health Care on Health made non-linear.
+	Effect of Private Health on Health made non-linear.
+	Effect of State Health Service on Socialism reduced.
+	Effects of State Health Service on Socialists and Capitalists reduced.
+	Effects of Income Tax on Capitalists and Socialists reduced.
+	Effects of Nobel prize on GDP and Liberals reduced.
+	Increased cost of State Housing.
+	Increased cost of State Schools.
+	Increased cost of State Pensions.
+	Increased cost of Military.
+	
+Version 1.03
+============
+Bug Fixes-
+	Improved logging for shader-related crashes.
+	Fixed crash bug and other issues if political capital was turned off.
+	Policy sliders now always show the correct descriptions.
+	Removed legacy debug window mapped to 'D' key.
+	Election win/loss music now plays at the correct volume.
+Balance:
+	Curfews now reduce GDP at the top level.
+	Free School Meals now reduce Obesity.
+	
+Version 1.04
+============
+Bug Fixes-
+	Checkbox seelcted graphic is now a tick, which should be mroe intuitive.
+	Fixed some typos.
+	Lightened some minister skin tones.
+	Fixed transparency on one ministerial hairstyle.
+	Grey lines are now used to show effects that are currently neutral (set to zero).
+	Improved the smoothness of drawing connecting lines on main GUI.
+	Fixed crash when selecting 'summary' tab on an empty voter group.
+	Fixed bug where it was possible to fire ministers and there be insufficient replacements.
+	Fixed crash bug relating to shaders and alt-tabbing when running the game fullscreen.
+Balance:
+	GM food approval now pleases, not angers capitalists!(ooops).
+	Detention without trial policy now harms foreign relations.
+	Monorail policy now only affects CO2 through car reduction, and reduces car usage more.
+	WelfareFraud Dept policy incomke is now scaled by the level of housing/disability/child/unemployed benefits.
+	Increased the strength of the BorderControls policy for the USA mission.
+	Reduced impact of BorderControls policy on Immigration.
+	Added new effect from Foreign Relations to Immigration.
+	Negative health effects from drugs is not a curve, skewed to harder drugs.
+	Oil price Shock event now affects the oil supply, not demand.
+	Maximum cost of the RoadBuilding policy increased by 20%.
+	Reduced effect of legal aid on socialists by 50%
+	Reduced effect of Inheritance Tax on socialists by 50%
+	Reduced effect of Income tax on socialists by 25%
+	Reduced liberal anger at CCTV Cameras by 25%
+	Reduced liberal anger at Border Controls by 25%
+	Reduced liberal anger at homelessness by 25%
+	Increased delay on effect of inheritance tax on euqality to 24 turns.
+	Fixed wrong equation(backwards!) for the effects of unemployment on immigration. High unemployment now reduces immigration.
+New Content:
+	Added new simulation value: Legal Drug Consumption.
+	Added new policy: Recreational Drugs Tax.
+	
+Version 1.05
+============
+Bug Fixes-
+	Some achievements that previously did not register are now being triggered correctly.
+	Fixed wrong values for liberals in school sponsorship dilemma.
+	Fixed misleading wording on sales tax description.
+	Next-turn processing/loading screen is now more obvious when it has finished.
+	Possible corruption in fireworks effect hopefully now fixed.
+Balance:
+	Halved the effect on socialist/capitalist membership caused by market meltdowns.
+	Halved the boost given to socialists for income tax.
+	Reduced impact of equality on socialists.
+	Added a negative impact on socialists happiness for high unemployment.
+	GDP is slightly less dependent on the global economy now.
+	GDP is less affected by technology situations now.
+	School sponsorship dilemma now affects socialists and capitalists.
+	Child Labour Law dilemma is less predictable now.
+	All of the effects of Tobacco tax are now scaled by Tobacco Use.
+	Private prisons now both anger and please liberals depending on the level of spending.
+New Content:
+	Modding sliders is now correctly supported.
+	Credit Ratings events now tell you the current credit rating.
+	
+Version 1.06
+============
+Bug Fixes-
+	Fixed bug in ban fox hunting dilemma.
+	Fixed some typos.
+	
+Version 1.07
+============
+Bug Fixes-
+	Fixed bug where new save games would not show up until restart in the load game menu.
+	Possible fix for some startup / screen-resolution changing bugs.
+	Fixed bug where gods kingom and socialist paradise achievements were not triggering correctly.
+	Fixed crash/freeze bug on election wins and achievements in certain circumstances.
+New Content:
+	Added new option to disable assassinations entirely.
+	Tooltips added to options screen checkboxes.
+	Added credits to main menu.
+
+Version 1.08
+============
+Bug Fixes-
+	Fixed broken interest rate code that allowed negative interest rates.
+	Fixed bug where the political compass only recorded the first 50 entries instead of the last.
+Balance:
+	Increased the top cost of national service from 80 to 1000.
+	Fixed issue where consumer rights affected self employed group twice.	
+	Effect of GDP on environment increased and made non linear.	
+	Effect of science funding on technology made slower.
+	Effect of technology colleges and grants on technology made slower.
+	Carbon tax hurts GDP more and the effect is now non linear.
+	Global Economy now affects oil demand. 
+	Immigration now affects state housing cost.
+	Effects of state health service,schools,pensions and housing on socialist membership all reduced.
+	Effect of foreign aid and legal aid on socialist happiness reduced.
+	Disability Benefit now upsets capitalists less and reduces inequality less.
+	UK now starts later in the global economic cycle.
+	Removed some redundant effects that boosted technological advantage too much.	
+	Effect of recycling on environmentalists reduced.
+	Effect of pollution controls on environmentalists reduced.
+	Productivity can now raise or lower unemployment.
+New Content:	
+	Support for new system of player-overrides that take effect globally.
+	Support for mods to have global overrides.
+	Added new simulation value of Currency Strength.
+	Minister loyalties now get a slight boost after each re-election.
+	New option to have randomised mission start values in the options screen.
+	
+Version 1.09
+============
+Bug Fixes-
+	Fixed bug where escape key allowed you to quit from policy screen without confirming changes.
+	New system to detect if the game can't run fullscreen the first time, and force a windowed run on second attempt.
+	german characters now render correctly.
+New Content:		
+	Support for steam workshop.
+	Better mod browsing interface and link to modding website.
+	Ability to delete and thus uninstall a mod from the GUI.
+	
+Version 1.10
+============	
+Bug Fixes-
+	Game enforces safe filenames now when typing a save game.
+	Fixed bug where subscribing to a bunch of steam workshop mods at once resulted in only one downloading.
+	Fix rendering bug on mod browser with lots of mods in list.
+Balance:
+	Private Health care now helps to trigger disease cured event.
+	Racial tension and Religious membership now contribute towards Church Attacked event.
+	Embassy Attacked event is now affected by Foreign Relations.
+	Bird Flu event now affected by Air Travel, Health and Tourism.
+	Health nowe affects probability of school shootings.
+	National service now slightly prevents embassys being attacked and islands being invaded.
+	The Death penalty now upsets religious voters.
+	The environment now has a (both positive and negative) impact on tourism.
+	Religious group membership now has a slight reducing effect on antisocial behavior.
+	Effect of equality on Crime Rate changed. Low equality can now boost Crime.
+	Effect of poverty on crime not stronger and non-linear.
+	Effect of CCTV Cameras on crime is now smaller and non-linear.
+	Effect of Wire Tapping on Crime Rate reduced.
+	Effect of Police Drones on Crime rate reduced.
+	Effect of Child Benefit on Equality reduced.
+	Impact of media backlash event is now stronger.
+	Effect of car emissions limits on environemntalists reduced.
+	Effect of pollution controls on environmentalists reduced.
+	One of the speed camera effects on motorists now corrected so it affects income.
+New Content:
+	Added new tab to show changes since election to the election results screen.
+	
+Version 1.11
+============
+New Content:
+	Added new mid-game compass feature to the polls screen.
+	Support for German language.
+Balance:
+	Ministers are now drawn from a more random group of voter types.
+	Ministers no longer degrade loyalty over time when their parent groups are very happy.
+	
+Version 1.12
+============
+Bug Fixes:
+	Fixed some weird text bugs in the tutorial.
+	Fixed some crash bugs in social engineering dlc
+	Fixed issue where the status of mods in the mod control panel was not updating on the scrollable list when toggled.
+	
+Version 1.13
+============
+Bug Fixes:
+	Fixed bug where equality effect on crime was inverted.
+	
+Version 1.14
+============
+GUI Changes:
+	The list of mods now shows green for enabled and red for disabled in both the list and the selected mod.
+	The delete mod button ahs been moved to the mod details screen.
+	Main menu and loading screen now supports screen resolutions larger than 2048 width better.
+	Polling screen, New policy screen and achievements screen are now larger on high resolutions.
+	Minimum res (1024) now no longer crops the voter type names on the polls screen.
+	
+Version 1.2
+============
+1) 'Please wait' Update bar now shows more information
+2) 'Please wait' Update bar no longer gets stuck if subscribed to a missing steam workshop mod.
+3) Added click button sound to selecting a mod
+4) Country selector windows are now square and have tooltips.
+5) Stats on the choose game screen now align correctly with the image on the left.
+6) Security status screen now shows all the influences to intelligence value from policies, colored to show status and value.
+7) 12 completely new achievements!
+8) Voting intentions dialog resized so no scrollbar is needed.
+9) Achievements now visible from a link on the games main menu as well as in-game.
+10) Added 4 new events to the game.
+11) Added click sounds to drop down lists.
+12) The in-game political compass now colors the current turn indicator as red.
+13) Adjusted trigger criteria for the debt agency dilemma.
+14) Voter details screen now shows what pressure/extremist group gets support from each group in a window at the bottom.
+15) Changed the way the polls show policy popularity (and estimated popularity) so it correctly only counts people who have a view on the policy.
+16) Improved rendering system for main screen to reduce slowdown on very low spec PCs.
+17) The finance charts now summarize the efficiency with which government funds are being raised and spent.
+18) Private health care now reduces the severity of drug addiction, just as state health care does.
+19) Added screenshot sound.
+20) Entire LHS of mod browser dialog now scrolls with the mouse.
+21) Ministers screen now shows the cost of a reshuffle.
+22) Please wait message updated to suggest hitting escape key.
+
+Version 1.21
+============
+1) Alt+tab black icon fix.
+
+Version 1.22
+============
+1) Support for Windows XP Fix
+2) Fix for low-video card memory computers.
+
+Version 1.23
+============
+1) Added support for new sound card driver overrides in prefs.ini You can now add sound driver = ESOD_DIRECT_SOUND or ESOD_WIN_MM or ESOD_NULL to debug sound related crashes.
+
+Version 1.24
+============
+1) Changed Assasination code so that only one assasination attempt per year is possible.
+2) Changed effect of Skills Shortage on GDP to have a less drastic curve. Equation is now 0-(0.44*x)^1.4
+3) Changed effect of Pollution on health to have a less drastic curve. Equation is now 0-(0.48*x)^1.5
+4) Changed effect of Uncompetitive economy on GDP to have a less drastic curve. Equation is now 0-(0.34*x)^1.52
+5) Changed effect of Technology Backwater on GDP to have a less drastic curve. Equation is now 0-(0.32*x)^1.6
+6) Fixed bug where policy flip flops were not being registered properly when adjusting policy sliders down.
+
+Version 1.25
+============
+1) Fixed simulation bug resulting in some voter groups never changing size.
+
+Version 1.26
+============
+1.	Unemployment now contributes towards obesity
+2.	Increased impact of car usage on traffic congestion
+3.	Increased base likelihood of a teacher shortage.
+4.	Unemployment now reduces the chance of a teacher shortage.
+5.	University Grants now increase the chance of a teacher shortage.
+6.	Reduced impact of CCTV on Armed Robbery.
+7.	Added impact of low inequality on Armed Robbery.
+8.	Changed equation for GDP impact on Alcohol Consumption to be non-linear.
+9.	Added impact on doctors and teachers strikes from trade union membership
+10.	Adjusted impact of state school funding on teachers strikes.
+11.	Added effect of wages on Teachers & Doctors Strikes.
+12.	Added effects of science funding and the environment to contagious disease.
+13.	Arts subsidies, Bus subsidies and community policing now reduce unemployment.
+14.	Adjustments to triggers for various events.
+15.	Increased impact of refugee crisis event.
+16.	Effects of corporate exodus event worsened.
+17.	Increased impact of Unemployment on CrimeRate.
+18.	Impact of religion on antisocial behaviour now linked to membership, not frequency.
+19.	Unemployment now linked to antisocial behaviour
+20.	Trade union and Socialist group memberships now contribute towards general strike.
+21.	Increased inertia of effect of science funding on technology.
+22.	Increased inertia of effects from tech grants and tech colleges on technology.
+23.	Reduced effect and increased inertia of intel services on crime rate.
+24. 	Reduced effect and increased inertia of phone tapping on crime rate.	
+25.	Added inertia to effect from prisoner tagging to crime rate.
+26.	Reduced impact of youth club subsidies on crime rate.
+27.	Increased impact of poverty on crime rate.
+28.	Increased chance of armed robbery when handgun laws are low.
+29.	Increased chance of armed robbery when equality is low.
+30.	Pollution now slightly reduces tourism.
+31.	Increased cost of telecommuting initiative.
+32.	Reduced the impact of technology colleges on education.
+33.	Clean fuel subsidies now take longer to improve the environment.
+34.	Hyrbid car policy now takes longer to improve the environment.
+35.	Slowed down impact of hybrid car policy on car usage.
+36.	Hybrid car policy now boosts the income of the wealthy.
+37. 	Lowered the triggering threshold for gridlock situation.
+
+Version 1.27
+============
+1.	Added impact of homelessness on Street Gangs.
+2.	Increased effect olf unemployment on Street Gangs,
+3.	Reduced impact of Police Force on Street Gangs.
+4.	Added inertia to effect of Police Force on Street Gangs.
+5.	Added inertia to impact of Armed Police on Street Gangs.
+6.	Increased impact of Poverty rate on Street Gangs
+7.	Adjusted curve of unemployments effect on Doctors Strike.
+8.	Reduced impact of unemployment benefit on Black Market.
+9.	Reduced trigger threshold for Black Market.
+10.	Reduced impact of Armed Police on Race Riots.
+11.	Increased impact of Unemployment on Race Riots.
+12.	Added impact of pollution on Contagious Disease.
+13.	Increased effect of Income Tax on Brain Drain.
+14.	Increased effect of Traffic Congestion on Gridlock.
+15.	Doctors Strike & Hospital overcrowding now both feed into Contagious Disease.
+16.	Increased impact of Public & Private Health care on Doctors Strike.
+
+Version 1.28
+============
+1.	Added impacts from Black Market situation on tax revenue.
+2.	Strengthened effects of Corporate Exodus situation.
+3.	Reduced impact of University Grants and Technology Colleges on education.
+4.	Poverty now boosts Drug Addiction, and Drug Addiction is harder to beat once triggered.
+5.	Fixed bug regarding labor survey event.
+6.	Adjusted triggering of Nobel Prize event.
+7.	Fixed display issue for some income effects on policies.
+8.	Consolidated duplicate entries for effects of tobacco consumption on cost of state health service.
+
+Version 1.281
+============+=
+1.	Balance changes to the following events: Mad Cow Disease, Car Company Shuts Plant,Highway Collapses, Spy Scandal, Telecom's Meltdown, Train Crash, Disease Cured, School Shooting, Church Attacked, Prison Riot, Pension Fund Scandal, Natural Disaster, Flagship Company Leaves, Disastrous Crop, Age Concern protest, Aerospace Boom, Oil Tanker Sunk, Tech Firm Closure, Credit Crunch, Overseas Famine, Poverty Report, Celebrity Kidnapped.
+
+Version 1.282
+==============
+1.	Fix for electioneering spin events bug.
+2.	Increased chance of Telecoms Meltdown event.
+3.	Increased chance of School Shooting event.
+4.	Increased chance of Church Attacked event.
+5.	Increased chance of Disastrous Crop event.
+6.	Increased inputs to Aerospace Contract Won event.
+7.	Increased inputs to Tech Firm Closure event.
+8.	Increased chance of Overseas Famine event.
+9.	Added inpuit to Celebrity Kidnapped event.
+10.	Adjusted inputs to Market Meltdown event.
+11.	Reduced inputs to Superhero event.
+
+Version 1.285
+==============
+1.	Fixed electioneering manifesto pledge save crash.
+
+Version 1.286
+==============
+1. Fixed rare random voter approval fluctuations bug
+
+

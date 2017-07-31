@@ -1,0 +1,18 @@
+[dilemma]
+name=Whistleblower
+guiname=Whistleblower
+description=A secret service contractor has leaked several documents that shed a light on the dark side of the war on terror. Should we prosecute her and do everything we can to bring her to justice or should we reform the secret service and stop making use of the malpractices she accuses us of?
+
+[influences]
+0 = "_random_,0.3,0.6"
+1 = "IntelligenceServices,0+(0.4*x)"
+
+[option0]
+Name = Prosecute!
+Description = Even if the accusations we are facing are true, we have to protect national interests. The public might not understand why we have to rely to these methods in the war on terror but the end justifies the means.
+OnImplement = CreateGrudge(Whistleblower,Whistleblower,Patriot,0.18,0.8);CreateGrudge(Whistleblower,Whistleblower,Liberal,-0.04,0.75);CreateGrudge(Whistleblower,Whistleblower,_security_,0.04,0.75);
+
+[option1]
+Name = Reform secret service!
+Description = The practices made public by <FemaleName> are indeed unworthy of a developed nation. We have to abstain from such methods in the future and thank <FemaleName> for demonstrating that civil courage still exists.
+OnImplement = CreateGrudge(Whistleblower,Whistleblower,Patriot,-0.14,0.75);CreateGrudge(Whistleblower,Whistleblower,Liberal,0.06,0.85);CreateGrudge(Whistleblower,Whistleblower,ForeignRelations,0.12,0.85);CreateGrudge(Whistleblower,Whistleblower,_security_,-0.04,0.75);

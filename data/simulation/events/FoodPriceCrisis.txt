@@ -1,0 +1,12 @@
+[config]
+Name = FoodPriceCrisis
+GUIName = Food Price Crisis
+Texture = "global food price crisis.jpg"
+Description = "Global demand and overseas production falls have resulted in a massive spike in food prices. This will obviously affect the poorest in society the most, although it might also prevent those citizens of ours who eat too much from continuing to expand their waistlines."
+GUISound = d3_boo.ogg
+MinimumTurn = 18
+OnImplement = CreateGrudge(Food Price Crisis,FoodPriceCrisis,FoodPriceCrisis,-1.0,0.93);CreateGrudge(Food Price Crisis,FoodPriceCrisis,_LowIncome,-0.310,0.80);CreateGrudge(Food Price Crisis,FoodPriceCrisis,Poor,-0.210,0.760);CreateGrudge(Food Price Crisis,FoodPriceCrisis,Obesity,-0.150,0.80);CreateGrudge(Food Price Crisis,FoodPriceCrisis,GDP,-0.06,0.80);
+[influences]
+0 = "_random_,0,0.2"
+1 = "GDP,0+(0.7*x)"
+2 = _winning_,0+(0.8*x)"

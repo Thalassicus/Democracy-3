@@ -1,0 +1,1 @@
+CreateGrudge(Canada Geography,Canada,EthnicMinorities_freq,-0.21,1,0);

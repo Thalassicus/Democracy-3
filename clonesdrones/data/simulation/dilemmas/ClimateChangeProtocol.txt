@@ -1,0 +1,18 @@
+[dilemma]
+name=ClimateChangeProtocol
+guiname=Climate Change Protocol
+description=The  United Nations Climate Change Conference signed a new protocol to limit the emission of greenhouse gases in industrialized countries. Your country participated in the talks and drove a hard bargain in order not to put too much strain on the economy. Still, ratifying the protocol can be costly, limiting GDP growth and worker productivity. On the other hand, experts claim that this is the only way to save the environment. Do we ratify the protocol?
+
+[influences]
+0 = "_random_,0.3,0.8"
+1 = "CO2Emissions,0+(0.2*x)"
+
+[option0]
+Name = Ratify protocol
+Description = Reducing greenhouse gas emmission is a necessary step to make sure our children will be born on a habitable planet. A small hit to the economy is well worth this goal.
+OnImplement = CreateGrudge(Climate Change Protocol,ClimateChangeProtocol,Capitalist,-0.18,0.8);CreateGrudge(Climate Change Protocol,ClimateChangeProtocol,CO2Emissions,-0.10,0.9);CreateGrudge(Climate Change Protocol,ClimateChangeProtocol,Environmentalist,0.17,0.87);
+
+[option1]
+Name = Do not ratify
+Description = With our economy at stake, we can not ratify a proposal that prevents growth, productivity and wealth. Other means of protecting the environment have to suffice for now.
+OnImplement = CreateGrudge(Climate Change Protocol,ClimateChangeProtocol,ForeignRelations,-0.09,0.85);CreateGrudge(Climate Change Protocol,ClimateChangeProtocol,Environmentalist,-0.19,0.67);CreateGrudge(Climate Change Protocol,ClimateChangeProtocol,Capitalist,0.10,0.8);

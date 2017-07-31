@@ -1,0 +1,1 @@
+CreateGrudge(Germany Geography,Germany,EthnicMinorities_freq,-0.31,1,0);

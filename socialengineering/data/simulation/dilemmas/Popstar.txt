@@ -1,0 +1,17 @@
+[dilemma]
+name=Popstar
+guiname=Popstar offers birthday song
+description=A pop star is offering you to sing for you on your birthday in public. She is known for her tiny dresses and adult themed songs, making her very popular among young people. 
+
+[influences]
+0 = _random_,0.2,0.7
+
+[option0]
+Name = Accept the offer
+Description = This is a great honor and will help you gain popularity with young people all over the country. Let's just hope it's cold and she wears something less revealing than usual.
+OnImplement = CreateGrudge(Popstar offers birthday song,Popstar,Young,0.11,0.9f);CreateGrudge(Popstar offers birthday song,Popstar,Parents,-0.05,0.9f);CreateGrudge(Popstar offers birthday song,Popstar,Conservatives,-0.11,0.9f)
+
+[option1]
+Name = Decline the offer
+Description = She may be famous and successful, but clearly is not a role model for our youth. Let's keep this celebration small and decent, and focus on the important political issues.
+OnImplement = CreateGrudge(Popstar offers birthday song,Popstar,Young,-0.1,0.5f);CreateGrudge(Popstar offers birthday song,Popstar,Parents,0.05,0.9f);CreateGrudge(Popstar offers birthday song,Popstar,Conservatives,0.1,0.85f)

@@ -1,0 +1,12 @@
+[config]
+Name = ManOnMars
+GUIName = Man On Mars
+Texture = event_mars.jpg
+Description = The whole country cheers as the first citizen of your country sets foot on Mars. It is small step for her, but a giant leap for mankind!
+GUISound = d3_crowd_applause.ogg
+OnImplement = CreateGrudge(Man On Mars,ManOnMars,Patriot,0.15,0.95);CreateGrudge(Man On Mars,ManOnMars,_All_,0.08,0.95);CreateGrudge(Man On Mars,ManOnMars,ManOnMars,-1.0,1.0);
+CreateGrudge(Man On Mars,ManOnMars,ForeignRelations,0.22,0.95);
+[influences]
+0 = "_random_,0.1,0.4"
+1 = "MarsProgram,0.0+(0.5*x)"
+2 = "SpaceProgram,0.0+(0.1*x)"
