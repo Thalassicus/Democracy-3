@@ -81,3 +81,5 @@ FaithSchoolSubsidies = 0.32
 SchoolPrayers = 0.12
 RuralDevelopmentGrants = 0.20
 AgricultureSubsidies = 0.21
+Narcotics = 1
+CharityTaxExemption = 1.0
