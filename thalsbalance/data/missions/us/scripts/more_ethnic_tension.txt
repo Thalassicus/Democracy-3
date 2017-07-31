@@ -1,1 +1,0 @@
-CreateGrudge(History of Slavery,USA,RacialTension,0.1,1,0);
