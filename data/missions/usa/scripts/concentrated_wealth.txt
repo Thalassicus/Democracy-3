@@ -1,0 +1,1 @@
+CreateGrudge(Wealth Concentration,USA,Wealthy_freq,-0.5,1,0);

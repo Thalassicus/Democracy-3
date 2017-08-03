@@ -36,6 +36,7 @@ Croissant Consumption: = "50 million/week"
 Cannabis use: = "4.7%"
 
 [policies]
+BorderControls = 0.1
 CorporationTax = 0.30
 SalesTax = 0.52
 PetrolTax = 0.3
@@ -58,7 +59,7 @@ JuryTrial = 0.75
 LegalAid = 0.75
 IncomeTax = 0.62
 ForeignAid = 0.37
-ScienceFunding = 0.75
+ScienceFunding = 1.0
 MilitarySpending = 0.54
 LabourLaws = 0.85
 ArtsSubsidies = 0.36
@@ -70,4 +71,4 @@ Creationism = 0.75
 Tasers = 0.2
 DisabilityBenefit = 0.83
 CharityTaxExemption = 1.0
-DrugEnforcement = 0.1
+DrugEnforcement = 0.4

@@ -1,1 +1,1 @@
-CreateGrudge(Canada,_hidden_,AlcoholConsumption,-0.24,1,0);
+CreateGrudge(Canada,_hidden_,AlcoholUse,-0.24,1,0);

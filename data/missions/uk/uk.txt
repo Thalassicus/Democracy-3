@@ -38,6 +38,7 @@ Obesity Rate: = "23%"
 Big Mac Index: = "$3.32"
 
 [policies]
+BorderControls = 0.3
 CorporationTax = 0.22
 SalesTax = 0.44
 PetrolTax = 0.3
@@ -66,7 +67,7 @@ IncomeTax = 0.45
 ForeignAid = 0.4
 CleanEnergySubsidies = 0.58
 Recycling = 0.23
-ScienceFunding = 0.3
+ScienceFunding = 0.2
 FoodStandards = 0.6
 CharityTaxExemption = 1.0
-DrugEnforcement = 0.1
+DrugEnforcement = 0.4
