@@ -37,7 +37,7 @@ Sausage consumption: = "60lb/person/year"
 
 [policies]
 CorporationTax = 0.21
-AgricultureSubsidies = 0.75
+AgricultureSubsidies = 0.1
 AirlineTax = 0.12
 AlcoholLaw = 0.16
 AlcoholTax = 0.2
@@ -62,7 +62,7 @@ LegaliseProstitution = 0.5
 MaternityLeave = 0.84
 MicrogenerationGrants = 0.95
 MilitarySpending = 0.32
-OrganicSubsidy = 0.7
+OrganicSubsidy = 0.3
 PetrolTax = 0.3
 PoliceForce = 0.8
 PollutionControls = 0.85

@@ -1,1 +1,0 @@
-CreateGrudge(Australia,Australian Demography,Patriot_freq,0.08,1,0);

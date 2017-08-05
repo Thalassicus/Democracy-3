@@ -1,8 +1,18 @@
 token,name,start angle,stop angle,tile,width,height
-#,FOREIGNPOLICY,335,25,tile_foreignpolicy.bmp,300,72
-#,WELFARE,25,65,tile_welfare.bmp,216,72
-#,ECONOMY,65,120,tile_economy.bmp,226,72
-#,TAX,120,180,tile_tax.bmp,108,72
-#,PUBLICSERVICES,180,245,tile_publicservices.bmp,362,72
-#,LAWANDORDER,245,285,tile_lawandorder.bmp,300,72
-#,TRANSPORT,285,335,tile_transport.bmp,286,72
+#,TAX,155,205,tile_tax.bmp,108,72
+#,ECONOMY,205,265,tile_economy.bmp,226,72
+#,WELFARE,95,155,tile_welfare.bmp,216,72
+#,LAWANDORDER,50,95,tile_lawandorder.bmp,300,72
+#,PUBLICSERVICES,310,360,tile_publicservices.bmp,362,72
+#,TRANSPORT,265,310,tile_transport.bmp,286,72
+#,FOREIGNPOLICY,0,50,tile_foreignpolicy.bmp,300,72
+,,,,,,
+,,,,,,
+,50,0,50,0,50,
+,45,50,95,50,95,
+,60,95,155,95,155,
+,50,155,205,155,205,
+,60,205,265,205,265,
+,45,265,310,265,310,
+,50,310,360,310,360,
+,360,,,,,
