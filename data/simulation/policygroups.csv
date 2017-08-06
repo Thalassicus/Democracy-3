@@ -1,6 +1,6 @@
 token,name,start angle,stop angle,tile,width,height
 #,TAX,155,205,tile_tax.bmp,108,72
-#,ECONOMY,205,265,tile_economy.bmp,226,72
+#,SURVIVAL,205,265,tile_economy.bmp,226,72
 #,WELFARE,95,155,tile_welfare.bmp,216,72
 #,LAWANDORDER,50,95,tile_lawandorder.bmp,300,72
 #,PUBLICSERVICES,310,360,tile_publicservices.bmp,362,72

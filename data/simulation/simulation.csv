@@ -1,8 +1,13 @@
 ,,,,zone,def,min,max,emotion,icon,,
 #,_Baseline,Baseline,hidden,HIDDEN,0.5,0,1,HIGHBAD,icons_violentcrimerate.dds,#,#
-#,GDP,GDP,"The Gross Domestic product of your country. This is defined as The total market value of all the goods and services produced within the nation in a year. This is a good general-purpose measure of the strength of your economy, and the nations overall wealth. One of the contributing factors is the global economic cycle, which tends to be cyclical, and is beyond your control.",HIDDEN,0.35,0,1,HIGHGOOD,icons_gdp.dds,#,#
-#,Unemployment,Unemployment,"This is a count of the percentage of your population who recently sought employment. This statistic generally omits the long-term unemployed, such as those whose benefits ran out, or gave up finding work entirely. Unemployment tends to hardest hit the poor, young, rural residents, and other marginalized members of society.",HIDDEN,0.4,0,1,HIGHBAD,icons_unemployment.dds,#,#
-#,PovertyRate,Poverty,"The poverty threshold or poverty line is the minimum level of income deemed adequate in a particular country to meet the basic needs of human survival, including food, clothing, shelter, and healthcare.",HIDDEN,0.64,0,1,HIGHBAD,icons_povertyrate.dds,#,#
-#,Education,Education,"A measurement of the education level of the average citizen. Not only literacy, but numeracy and general understanding of everything from history to IT and science.",HIDDEN,0.18,0,1,HIGHGOOD,icons_education.dds,#,#
+#,GDP,GDP,"The Gross Domestic product of your country. This is defined as The total market value of all the goods and services produced within the nation in a year. This is a good general-purpose measure of the strength of your economy, and the nations overall wealth. One of the contributing factors is the global economic cycle, which tends to be cyclical, and is beyond your control.",HIDDEN,0.5,0,1,HIGHGOOD,icons_gdp.dds,#,#
+#,Unemployment,Unemployment,"This is a count of the percentage of your population who recently sought employment. This statistic generally omits the long-term unemployed, such as those whose benefits ran out, or gave up finding work entirely. Unemployment tends to hardest hit the poor, young, rural residents, and other marginalized members of society.",HIDDEN,0.5,0,1,HIGHBAD,icons_unemployment.dds,#,#
+#,PovertyRate,Poverty,"The poverty threshold or poverty line is the minimum level of income deemed adequate in a particular country to meet the basic needs of human survival, including food, clothing, shelter, and healthcare.",HIDDEN,0.5,0,1,HIGHBAD,icons_povertyrate.dds,#,#
+#,Education,Education,"A measurement of the education level of the average citizen. Not only literacy, but numeracy and general understanding of everything from history to IT and science.",HIDDEN,0.5,0,1,HIGHGOOD,icons_education.dds,#,#
 #,Health,Health,"A general indicator for the health of your citizens that measures not just raw lifespan, but also fitness and the general wellbeing of people.",HIDDEN,0.5,0,1,HIGHGOOD,icons_health.dds,#,#
-#,CrimeRate,Crime,"An indicator of the level of general non violent crime in your nation. This includes crimes such as car crime, burglary etc., but also covers fraud and other similar crimes.",HIDDEN,0.6,0,1,HIGHBAD,icons_crimerate.dds,#,#
+#,CrimeRate,Crime,"An indicator of the level of general non violent crime in your nation. This includes crimes such as car crime, burglary etc., but also covers fraud and other similar crimes.",HIDDEN,0.5,0,1,HIGHBAD,icons_crimerate.dds,#,#
+#,Population,Population,Population,,,,,,,,
+#,Food,Food,Food,,,,,,,,
+#,Ores,Ores,Ores,,,,,,,,
+#,Lumber,Lumber,Lumber,,,,,,,,
+#,Housing,Housing,Housing,,,,,,,,
