@@ -1,1 +1,0 @@
-CreateGrudge(US Individualism,USA,Capitalist_freq,0.2,1,0);

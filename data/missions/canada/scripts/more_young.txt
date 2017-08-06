@@ -1,1 +1,0 @@
-CreateGrudge(Canadian Demography,Canada,Young_freq,0.002,1,0);

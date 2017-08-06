@@ -1,1 +1,0 @@
-CreateGrudge(Australia,Australian Demography,Farmers_freq,0.01,1,0);

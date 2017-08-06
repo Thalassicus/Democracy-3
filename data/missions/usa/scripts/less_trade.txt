@@ -1,1 +1,0 @@
-CreateGrudge(Few Neighbors,USA,InternationalTrade,-0.2,1,0);

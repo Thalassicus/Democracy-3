@@ -1,1 +1,0 @@
-CreateGrudge(Wealth Concentration,USA,Wealthy_freq,-0.1,1,0);

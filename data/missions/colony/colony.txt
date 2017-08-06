@@ -1,0 +1,40 @@
+[config]
+currency = "§"
+population = 158334
+economic_cycle_start = 0.28
+min_income = 10
+max_income = 100
+min_gdp = 10
+max_gdp = 100
+wealth_mod = 1
+starting_debt = 0
+name  = colony
+guiname = "Colony"
+names_file = "data\names\colonynames.txt"
+term_length = 20
+max_terms = -1
+details_image = "usa_details.jpg"
+description = "Colony"
+flag = "flag_usa.jpg"
+apathy = 0.5
+jobtitle = "President"
+GUID = 1
+
+[options]
+EARTHQUAKES
+HURRICANES
+
+[stats]
+Population: = "100,000"
+Size: = "9,826,675 sq km"
+Life expectancy: = "78.62 years"
+Gini(inequality): = "47.7"
+GDP per capita: = "$49,800"
+Poverty: = "16% (2006)"
+Ethnicity: = "79.9% white"
+Religion: = "Christian(78.3%)"
+Obesity Rate: = "30.6%"
+Big Mac Index: = "$4.2"
+Beef Consumption: = "57.4lbs/person"
+
+[policies]

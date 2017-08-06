@@ -1,1 +1,0 @@
-CreateGrudge(Australian Demography,Australia,Retired_freq,-0.05,1,0);

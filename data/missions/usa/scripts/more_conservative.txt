@@ -1,1 +1,0 @@
-CreateGrudge(Right-Leaning,USA,Conservatives_freq,0.2,1,0);

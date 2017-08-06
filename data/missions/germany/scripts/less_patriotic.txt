@@ -1,1 +1,0 @@
-CreateGrudge(Germany,_hidden_,Patriot_freq,-0.09,1,0);

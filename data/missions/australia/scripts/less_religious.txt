@@ -1,1 +1,0 @@
-CreateGrudge(Australia,Australian Demography,Religious_freq,-0.19,1,0);

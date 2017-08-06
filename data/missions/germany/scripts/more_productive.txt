@@ -1,1 +1,0 @@
-CreateGrudge(Germany,_hidden_,WorkerProductivity,0.12,1,0);
