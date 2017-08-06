@@ -7,7 +7,6 @@ token,name,start angle,stop angle,tile,width,height
 #,TRANSPORT,265,310,tile_transport.bmp,286,72
 #,FOREIGNPOLICY,0,50,tile_foreignpolicy.bmp,300,72
 ,,,,,,
-,,,,,,
 ,50,0,50,0,50,
 ,45,50,95,50,95,
 ,60,95,155,95,155,

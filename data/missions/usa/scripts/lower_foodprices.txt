@@ -1,0 +1,1 @@
+CreateGrudge(US Geography,USA,FoodPrice,-0.1,1,0);

@@ -105,3 +105,4 @@ UnemployedBenefit = 0.12
 UniversityGrants = 0.2
 WitnessProtectionProgram = 0.5
 MortgageTaxRelief = 0.4
+InternetCensorship = 0.33

@@ -1,0 +1,6 @@
+[config]
+name = "thalsbalance"
+path = "thalsbalance"
+guiname = "Thal Balance"
+author = "Thalassicus"
+description = "This mod balances the usefulness of various policies."

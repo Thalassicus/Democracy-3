@@ -1,0 +1,6 @@
+[config]
+name = "clonesdrones"
+path = "clonesdrones"
+guiname = "Clones And Drones"
+author = "Positech Games"
+description = "This expansion adds a near future setting to Democracy 3. Human cloning, drone surveillance and human-level artificial intelligence pose new challenges to democratic governments. Can you face the future?"
