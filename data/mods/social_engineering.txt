@@ -1,6 +1,0 @@
-[config]
-name = "socialengineering"
-path = "socialengineering"
-guiname = "Social Engineering"
-author = "Positech Games"
-description = "This expansion for Democracy 3 adds new dilemmas and policies which allow you to exert subtle change upon your country. Income taxes and Economic policy are big blunt instruments, but with social engineering you get to influence the population in far subtler ways."

@@ -1,0 +1,6 @@
+[config]
+name = "deprecated"
+path = "deprecated"
+guiname = "deprecated"
+author = "deprecated"
+description = "Effects to remove."

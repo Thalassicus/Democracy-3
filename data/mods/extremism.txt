@@ -1,6 +1,0 @@
-[config]
-name = "extremism"
-path = "extremism"
-guiname = "Extremism"
-author = "Positech Games"
-description = "This expansion for Democracy 3 adds new policies and situations that reflect the extreme ends of politics within a democratic system, such as banning private education, outlawing same-sex relationships, and forcing the unemployed to work."
