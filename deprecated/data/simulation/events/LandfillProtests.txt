@@ -7,6 +7,7 @@ GUISound = d3_crowd_angry_2.ogg
 OnImplement = CreateGrudge(Rubbish Tip Protests,LandfillProtests,Environmentalist,-0.120,0.670);CreateGrudge(Rubbish Tip Protests,LandfillProtests,LandfillProtests,-0.900,0.920);
 [influences]
 0 = "_random_,0.500,0.870"
-1 = "Recycling,-0.2-(0.2*x)"
-2 = "Environmentalist_perc,0+(0.2*x)"
-3 = "Environment,0.4-(0.4*x)"
+1 = "Recycling,-0.1-(0.17*x)"
+2 = "PlasticBagTax,-0.05-(0.09*x)"
+3 = "Environmentalist_perc,0+(0.2*x)"
+4 = "Environment,0.4-(0.4*x)"

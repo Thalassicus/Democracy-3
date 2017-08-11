@@ -7,6 +7,7 @@ GUISound = d3_cows.ogg
 OnImplement = CreateGrudge(Mad Cow Epidemic,MadCowEpidemic,Farmers,-0.660,0.670);CreateGrudge(Mad Cow Epidemic,MadCowEpidemic,Farmers_income,-0.50,0.50);CreateGrudge(Mad Cow Epidemic,MadCowEpidemic,MadCowEpidemic,-0.950,0.950);CreateGrudge(Mad Cow Epidemic,MadCowEpidemic,GDP,-0.05,0.10);
 [influences]
 0 = "_random_,0.400,0.950"
-1 = "ScienceFunding,0-(0.2*x)"
-2 = "FoodStandards,0.2-(0.7*x)"
-3 = "_winning_,0+(0.3*x)"
+1 = "OrganicSubsidy,0-(0.27*x)"
+2 = "ScienceFunding,0-(0.1*x)"
+3 = "FoodStandards,0-(0.7*x)"
+4 = "_winning_,0+(0.3*x)"
