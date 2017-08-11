@@ -1,0 +1,1 @@
+CreateGrudge(German Geography,Germany,Farmers_freq,-0.205,1,0);

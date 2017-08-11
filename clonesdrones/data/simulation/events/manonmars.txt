@@ -8,4 +8,5 @@ OnImplement = CreateGrudge(Man On Mars,ManOnMars,Patriot,0.15,0.95);CreateGrudge
 CreateGrudge(Man On Mars,ManOnMars,ForeignRelations,0.22,0.95);
 [influences]
 0 = "_random_,0.1,0.4"
-2 = "SpaceProgram,0.0+0.5*(x^2)"
+1 = "MarsProgram,0.0+(0.5*x)"
+2 = "SpaceProgram,0.0+(0.1*x)"
