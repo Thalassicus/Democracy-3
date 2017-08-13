@@ -9,9 +9,9 @@ description=For many years, certain pharma companies have been giving money and 
 [option0]
 Name = Ignore the problem
 Description = This has been going on for many years and nothing happened. Clearly there is no need to intervene and force regulations upon these companies. After all, the pharma industry is a rich and influential business, if other companies think their product is better, they can do the same.
-OnImplement = CreateGrudge(Doctors being bribed,Doctorbribes,Capitalist,0.05,0.9f);CreateGrudge(Doctors being bribed,Doctorbribes,Health,-0.03,1.0f);CreateGrudge(Doctors being bribed,Doctorbribes,Retired,-0.05,0.9f);CreateGrudge(Doctors being bribed,Doctorbribes,PrivateHealthcare,0.08,1.0f)
+OnImplement = CreateGrudge(Doctors being bribed,Doctorbribes,Capitalist,0.05,0.9f);CreateGrudge(Doctors being bribed,Doctorbribes,Health,-0.03,1.0f);CreateGrudge(Doctors being bribed,Doctorbribes,Retired,-0.05,0.9f);CreateGrudge(Doctors being bribed,Doctorbribes,PrivateHealth,0.08,1.0f)
 
 [option1]
 Name = Introduce regulations
 Description = This has to stop, the lives of patients are on the line and it is unacceptable that doctors prescribe medicines based on their own financial motivations rather than what the patient needs. Regulations will be put in place to prevent pharma companies influencing doctors in any financial way.
-OnImplement = CreateGrudge(Doctors being bribed,Doctorbribes,Capitalist,-0.05,0.9f);CreateGrudge(Doctors being bribed,Doctorbribes,Health,0.03,1.0f);CreateGrudge(Doctors being bribed,Doctorbribes,Retired,0.05,0.9f);CreateGrudge(Doctors being bribed,Doctorbribes,PrivateHealthcare,-0.08,1.0f)
+OnImplement = CreateGrudge(Doctors being bribed,Doctorbribes,Capitalist,-0.05,0.9f);CreateGrudge(Doctors being bribed,Doctorbribes,Health,0.03,1.0f);CreateGrudge(Doctors being bribed,Doctorbribes,Retired,0.05,0.9f);CreateGrudge(Doctors being bribed,Doctorbribes,PrivateHealth,-0.08,1.0f)
