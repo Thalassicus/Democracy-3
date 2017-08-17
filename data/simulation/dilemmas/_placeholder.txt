@@ -1,0 +1,17 @@
+[dilemma]
+name=Placeholder
+guiname=Placeholder
+description=Placeholder
+
+[influences]
+0 = WorkerProductivity,0+(0*x)
+
+[option0]
+Name = Placeholder1
+Description = Placeholder1
+OnImplement = CreateGrudge(Single adoptions,Adoption,Equality,0.05,0.9f);CreateGrudge(Single adoptions,Adoption,Liberal,0.05,0.9f);CreateGrudge(Single adoptions,Adoption,Parents,-0.07,0.6f);CreateGrudge(Single adoptions,Adoption,Conservatives,-0.05,0.9f);
+
+[option1]
+Name = Placeholder2
+Description = Placeholder2
+OnImplement = CreateGrudge(Single adoptions,Adoption,Equality,-0.05,0.9f);CreateGrudge(Single adoptions,Adoption,Liberal,-0.05,0.9f);CreateGrudge(Single adoptions,Adoption,Parents,0.07,0.6f);CreateGrudge(Single adoptions,Adoption,Conservatives,0.05,0.9f);
