@@ -1,0 +1,12 @@
+[config]
+Name = CrashRealEstate
+GUIName = Real Estate Crash
+Texture = "event_stockmarket.jpg"
+Description = Speculation in the housing market led to a massive price crash, devastating property owners. We should prepare for a serious economic downturn.
+MinimunTurn = 20
+GUISound = d3_stockmarket_angry.ogg
+OnImplement = CreateGrudge(Real Estate Crash,CrashRealEstate,CrashRealEstate,-1,0.75);CreateGrudge(Real Estate Crash,CrashRealEstate,Realestatebubble,-1,0.77);CreateGrudge(Real Estate Crash,CrashRealEstate,GDP,-1,0.8);CreateGrudge(Real Estate Crash,CrashRealEstate,GDP,-1,0.8);CreateGrudge(Real Estate Crash,CrashRealEstate,_MiddleIncome,-0.2,0.65);CreateGrudge(Real Estate Crash,CrashRealEstate,_HighIncome,-0.1,0.65);
+[influences]
+0 = "_random_,0,0.2"
+1 = "_winning_,0+(0.3*x)"
+2 = "Realestatebubble,0+(100*x)"

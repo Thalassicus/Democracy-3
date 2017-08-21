@@ -1,0 +1,13 @@
+[config]
+Name = StockCrashTech
+GUIName = Technology Crash
+Texture = "event_stockmarket.jpg"
+Description = A crash in technology stocks resulted in a significant blow to the tech sector of our economy.
+MinimunTurn = 20
+GUISound = d3_stockmarket_angry.ogg
+OnImplement = CreateGrudge(Tech Crash,StockCrashTech,StockCrashTech,-1,0.75);CreateGrudge(Tech Crash,StockCrashTech,Technology,-0.2,0.77);CreateGrudge(Tech Crash,StockCrashTech,GDP,-0.6,0.5);CreateGrudge(Tech Crash,StockCrashTech,Wealthy_income,-0.13,0.65);
+
+[influences]
+0 = "_random_,0.1,0.4"
+1 = "_winning_,0+(0.3*x)"
+2 = "Technology,0+(1*x)"

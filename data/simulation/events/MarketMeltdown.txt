@@ -7,5 +7,4 @@ GUISound = d3_stockmarket_angry.ogg
 OnImplement = CreateGrudge(Market Meltdown,MarketMeltdown,MarketMeltdown,-1.0,0.93);CreateGrudge(Market Meltdown,MarketMeltdown,Capitalist,-0.310,0.760);CreateGrudge(Market Meltdown,MarketMeltdown,_globaleconomy_,-0.8,0.92);CreateGrudge(Market Meltdown,MarketMeltdown,_global_socialism,0.075,0.9);
 [influences]
 0 = "_random_,0,0.25"
-1 = "GDP,0+(0.7*x)"
-2 = _winning_,0+(0.75*x)"
+1 = _winning_,0+(1*x)"

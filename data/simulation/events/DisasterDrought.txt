@@ -1,0 +1,9 @@
+[config]
+Name = Drought
+GUIName = Drought
+Texture = "event_famine.jpg"
+Description = A severe drought afflicts our nation, made worse by rising global temperatures. We might consider declaring a State of Emergency, and increasing funding for Desalination.
+GUISound = d3_crickets.ogg
+OnImplement = CreateGrudge(CreateGrudge(Drought,Drought,Drought,-0.5,0.900);CreateGrudge(Drought,Drought,Watershortage,0.6,0.800);CreateGrudge(Drought,Drought,Flooding,-0.6,0.800);
+[influences]
+0 = "AverageTemperature,10*(x^3)"

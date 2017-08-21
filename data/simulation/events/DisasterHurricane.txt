@@ -1,0 +1,11 @@
+[config]
+Name = Hurricane
+GUIName = Hurricane Approaching
+Texture = "event_storm.jpg"
+Description = A massive Category 5 hurricane approaches our coastline. We should declare a state of emergency!
+GUISound = d3_storm.ogg
+OnImplement = CreateGrudge(Hurricane,Hurricane,Hurricane,-0.5,0.900);CreateGrudge(Hurricane,Hurricane,Flooding,0.5,0.900);CreateGrudge(Hurricane,Hurricane,WaterShortage,-0.5,0.900);
+[influences]
+0 = "_random_,0,0.25"
+1 = "_winning_,0+(0.25*x)"
+2 = "AverageTemperature,0+(100*x)"
